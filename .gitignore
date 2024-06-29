@@ -1,0 +1,44 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore logs
+*.log
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+*.swp
+
+# Ignore environment variable files
+.env
+
+# Ignore any other sensitive files
+credentials.json
